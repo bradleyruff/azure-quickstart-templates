@@ -6,7 +6,11 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv EA312927
 #Step 2 - Create source list file MongoDB:
 echo "deb http://repo.mongodb.org/apt/ubuntu "xenial"/mongodb-org/3.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.2.list
 
+<<<<<<< HEAD
 #Step 3 - Update the repository 
+=======
+#Step 3 - Update the repository
+>>>>>>> 23aa5b9fd423f775bb7a0305193a4ed6f4ca1e37
 apt-get update
 
 #Step 4 - Install MongoDB
